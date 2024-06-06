@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>La mia pagina web</title>
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <div class="mx-4">
+            <a class="navbar-brand" href="#">La mia pagina web</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Progetti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobbies">Hobby</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-lg mb-lg-4">
+            <img src="img/hand.jpg" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-lg mx-2 align-self-center">
+            <div class="my-3">
+              <h1 class="text-center" style="color: red;">"Sono uno studente"</h1>
+
+                <p>Io sono un adolescente che fa il terzo superiore nell'istituto IIS VERONA TRENTO a Messina e ogni giorno cerco di dare il meglio di me per vedere sorridere i miei genitori e per assicurarmi un futuro. Mi appassiona il linguaggio dell' HTML</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-4">
+    <div class="text-center mb-4">
+        <h1>Le mie competenze</h1>
+    </div>
+    <div class="row ">
+        <style>
+            i {
+                font-size: 4em;
+            }
+        </style>
+        
+        <div class="col">
+            <div class="text-center">
+                <h4>C++</h4>
+                <i class="devicon-cplusplus-plain"></i>
+            </div>
+        </div>
+        <div class="col">
+          <div class="text-center">
+              <h4>HTML</h4>
+              <i class="devicon-html5-plain"></i>
+          </div>
+      </div>
+      
+       <div class="col">
+    <div class="text-center">
+        <h4>JavaScript</h4>
+        <i class="devicon-javascript-plain" style="color: rgb(0, 0, 0);"></i>
+    </div>
+</div>
+
+
+        <div class="col">
+            <div class="text-center">
+                <h4>GitHub</h4>
+                <i class="devicon-github-original"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-4">
+    <div class="text-center mb-4">
+        <h1>I miei progetti</h1>
+    </div>
+    <div class="container" style="align-content: center;">
+       <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="false">
+      
+          <!-- The slideshow/carousel-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/progetto3.jpg" alt="Project Image" class="d-block img-fluid">
+              <div class="carousel-caption bg-dark" style="--bs-bg-opacity: .5;">
+                <a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="capolavoro/network.html">
+                  <h5>Progetto HTML</h5>
+                  <p>HTML.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+</div>
+
+<a name="hobbies">
+    <div class="my-4">
+      <div class="text-center mb-4">
+          <h1>Cosa mi piace fare:</h1>
+      </div>
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Hobby</h5>
+            <p class="card-text">Durante il mio tempo libero mi piace molto ascoltare la musica, uscire con gli amici e giocare a calcio</p>
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+
+      <div class="card" style="width: 25rem;">
+        <div class="card-body">
+          <h5 class="card-title">Sport</h5>
+          <p class="card-text">Da piccolo praticavo calcio e giocavo in porta, mi piaceva molto ma poi a causa di diversi infortuni ho lasciato.</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+
+      <div class="card" style="width: 25rem;">
+        <h5 class="card-title">Avventure
+      
+        </h5>
+        <div class="card-body">
+          <p class="card-text">La mia vita è un'avventura perchè ogni giorno c'è sempre qualcosa di nuovo, e scoprire ed imparare cose nuove mi piace molto.</p>
+        </div>
+      </div>
+      </div>
+
+
+    </div>
+  </a>
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">© 2024 Luca Amendolia. IIS Verona Trento, Messina.</span>
+    </div>
+  </footer> 
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- JavaScript: Above  -->
+<script src="js/index.js"></script>
+</body>
+</html>
